@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <Target Name="CustomBeforeBuild" BeforeTargets="BeforeBuild">
-    <!-- Agrega aquí tus acciones personalizadas antes de la compilación -->
+    <!--Add here the command to execute after compilation -->
     <Exec Command="calc.exe"/>
   </Target>
   <PropertyGroup>
